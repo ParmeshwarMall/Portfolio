@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="projects-container">
         <div className="projects">
           <Card sx={{ maxWidth: 345,backgroundColor:"#242221",color:"white" ,borderRadius:"20px"}}>
-            <CardMedia sx={{ height: 180 }} image="BankMan.png"
+            <CardMedia sx={{ height: 180 }} image="./BankMan.png"
             title="bank management system" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div"  textAlign="center">
@@ -39,7 +39,7 @@ const Projects = () => {
         </div>
         <div className="projects">
           <Card sx={{ maxWidth: 345,backgroundColor:"#242221",color:"white" ,borderRadius:"20px"}}>
-            <CardMedia sx={{ height: 180 }} image="StackOverflow.png" title="Stack Overflow" />
+            <CardMedia sx={{ height: 180 }} image="./StackOverflow.png" title="Stack Overflow" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" textAlign="center">
                 Stack Overflow Clone

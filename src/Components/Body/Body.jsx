@@ -32,7 +32,7 @@ const Body = () => {
         </div>
       </div>
       <div className="main_image">
-        <img src="logo.jpg" alt="img" />
+        <img src="./logo.jpg" alt="img" />
       </div>
     </div>
   );

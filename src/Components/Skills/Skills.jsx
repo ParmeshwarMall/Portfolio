@@ -12,7 +12,7 @@ const Skills = () => {
           <h2 className="skills-head">Problem Solving</h2>
           <div className="main-skills">
             <div className="skills">
-              <img src="javaicon.png" className="fa-brands" alt="" />
+              <img src="./javaicon.png" className="fa-brands" alt="" />
               <h5>Java</h5>
             </div>
             <div className="skills">
@@ -59,15 +59,15 @@ const Skills = () => {
                     <h5>Node JS</h5>
                     </div>
                     <div className="skills">
-                        <img src="expressicon.png" className="fa-brands" alt="" />
+                        <img src="./expressicon.png" className="fa-brands" alt="" />
                         <h5>Express JS</h5>
                     </div>
                     <div className="skills">
-                        <img src="mongoicon.png" className="fa-brands" alt="" />
+                        <img src="./mongoicon.png" className="fa-brands" alt="" />
                         <h5>MongoDB</h5>
                     </div>
                     <div className="skills">
-                        <img src="mysqlicon.png" className="fa-brands" alt="" />
+                        <img src="./mysqlicon.png" className="fa-brands" alt="" />
                         <h5>My SQL</h5>
                     </div>
                 </div>
@@ -76,19 +76,19 @@ const Skills = () => {
                 <h2 className="skills-head">Tools</h2>
                 <div className="main-skills">
                     <div className="skills">
-                        <img src="vscodeicon.png" className="fa-brands" alt="" />
+                        <img src="./vscodeicon.png" className="fa-brands" alt="" />
                         <h5>VS Code</h5>
                     </div>
                     <div className="skills">
-                        <img src="giticon.png" className="fa-brands" alt="" />
+                        <img src="./giticon.png" className="fa-brands" alt="" />
                         <h5>Git</h5>
                     </div>
                     <div className="skills">
-                        <img src="githubicon.png" className="fa-brands" alt="" />
+                        <img src="./githubicon.png" className="fa-brands" alt="" />
                         <h5>Github</h5>
                     </div>
                     <div className="skills">
-                        <img src="intellijicon.png" className="fa-brands" alt="" />
+                        <img src="./intellijicon.png" className="fa-brands" alt="" />
                         <h5>IntelliJ IDEA</h5>
                     </div>
                 </div>
