@@ -33,6 +33,12 @@ a:hover{
     height: 75px;
 
 }
+.nav_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
 .nav-link {
     position: relative;
     color: rgb(255, 251, 251);
@@ -41,13 +47,6 @@ a:hover{
     border-bottom: none;
     transition: width 0.35s ease;
     -webkit-transition: width 0.35s ease;
-}
-
-.nav_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 20px;
 }
 
 .nav-link.active::after {

@@ -21,22 +21,23 @@ const Nav = () => {
         <div className="navbar-link">
           <ul className="nav-items">
             <li className="nav-item">
-              <NavLink to="/" className="nav-link">
+              <NavLink to="/Portfolio/" className="nav-link" activeClassName="active"
+                exact>
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/skills" className="nav-link">
+              <NavLink to="/Portfolio/skills" className="nav-link" activeClassName="active">
                 Skills
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/projects" className="nav-link">
+              <NavLink to="/Portfolio/projects" className="nav-link" activeClassName="active">
                 Projects
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink to="/education" className="nav-link">
+              <NavLink to="/Portfolio/education" className="nav-link" activeClassName="active">
                 Educations
               </NavLink>
             </li>
