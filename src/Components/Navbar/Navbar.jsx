@@ -13,7 +13,7 @@ const Nav = () => {
         <div className="nav_logo">
         <Avatar
           alt=""
-          src="logo.jpg"
+          src="animat-logo.gif"
           sx={{ width: 56, height: 56 }}
         />
         <h2 className="heading">parmeshwarmall64@gmail.com</h2>
