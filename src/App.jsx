@@ -6,6 +6,7 @@ import Body from './Components/Body/Body';
 import Skills from './Components/Skills/Skills';
 import Projects from './Components/Projects/Projects';
 import Education from './Components/Education/Education';
+import Contact from './Components/Contact/Contact';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Route path="/Portfolio/skills" element={<Skills />} />
                 <Route path='/Portfolio/projects' element={<Projects/>}/>
                 <Route path='/Portfolio/education' element={<Education/>}/>
+                <Route path='/Portfolio/contact' element={<Contact/>}/>
             </Routes>
         </Router>
     );

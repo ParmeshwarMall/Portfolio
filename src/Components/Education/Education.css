@@ -1,0 +1,37 @@
+.education-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(29, 27, 27);
+    width: 100%;
+
+}
+.custom-timeline-element .vertical-timeline-element-content {
+    background-color: rgb(59, 54, 54);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+
+.vertical-timeline-element-title{
+    font-size: 1.7rem;
+    color: rgb(241, 248, 242);
+}
+.vertical-timeline-element-subtitle{
+    margin-top: 10px;
+    color: rgb(191, 181, 181);
+
+}
+.fas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.school-logo{
+    height: 35px;
+    width: 35px;
+    margin-left: 12px;
+}

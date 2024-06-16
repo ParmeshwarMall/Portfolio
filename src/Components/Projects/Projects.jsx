@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className="main-project-container">
       <h1 className="main-head1">Projects</h1>
-      <h1 className="main-head2"></h1>
+      <h2 className="main-head2">I have worked on a wide range of projects. Here are some of my projects.</h2>
       <div className="projects-container">
         <div className="projects">
           <Card sx={{ maxWidth: 345,backgroundColor:"#242221",color:"white" ,borderRadius:"20px"}}>
@@ -87,7 +87,7 @@ const Projects = () => {
         </div>
         <div className="projects">
           <Card sx={{ maxWidth: 345,backgroundColor:"#242221",color:"white",borderRadius:"20px"}}>
-            <CardMedia sx={{ height: 180 }} image="" title="Weather update" />
+            <CardMedia sx={{ height: 180 }} image="weather.png" title="Weather update" />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div" textAlign="center">
                 Weather Update
