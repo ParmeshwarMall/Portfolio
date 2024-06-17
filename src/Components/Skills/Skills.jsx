@@ -1,6 +1,5 @@
 import React from "react";
 import "./Skills.css";
-import { blue } from "@mui/material/colors";
 
 const Skills = () => {
   return (

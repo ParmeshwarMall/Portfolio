@@ -1,5 +1,6 @@
 import React from "react";
-import './Body.css'
+import Button from "@mui/material/Button";
+import "./Body.css";
 
 const Body = () => {
   return (
@@ -25,10 +26,26 @@ const Body = () => {
           analytical and problem-solving tasks.
         </h3>
         <div className="social_icons">
-        <a href="https://www.linkedin.com/feed/" target="_blank"><i class="fa-brands fa-linkedin icons fa-2x"></i></a>
-        <a href=""><i class="fa-brands fa-square-instagram icons fa-2x"></i></a>
-        <a href=""><i class="fa-brands fa-facebook icons fa-2x"></i></a>
-        <a href=""><i class="fa-brands fa-square-x-twitter icons fa-2x"></i></a>
+          <a href="https://www.linkedin.com/feed/" target="_blank">
+            <i class="fa-brands fa-linkedin icons fa-2x"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-instagram icons fa-2x"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-facebook icons fa-2x"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-x-twitter icons fa-2x"></i>
+          </a>
+        </div>
+
+        <div className="resume1">
+          <Button variant="outlined">
+            <a href="Resume.pdf" target="_blank">
+              Check Resume
+            </a>
+          </Button>
         </div>
       </div>
       <div className="main_image">

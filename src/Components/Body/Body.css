@@ -4,6 +4,9 @@
     align-items: center;
     padding: 50px;
     background-color: rgb(29, 27, 27);
+    transition: transform 0.4s ease;
+    position: relative;
+    top: 75px;
 }
 .main_content{
     width: 50%;
@@ -57,4 +60,44 @@
 .icons:hover{
     transition: all linear 0.3s;
     scale:1.4
+}
+.resume1{
+    display: none;
+}
+@media (max-width:768px){
+    .main_head{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .main_content{
+        width: 100%;
+    }
+    .animated-text1 {
+        font-size: 1.8em;
+        animation: textAnimation 5s infinite;
+    }
+    
+    @keyframes textAnimation {
+        0%, 100% {
+            width: 19%;
+        }
+        50% {
+            width: 95%;
+        }
+    }
+    .main_image{
+        display: none;
+    }
+    .main_body{
+        height: 81.2vh;
+    }
+    .social_icons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .resume1{
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
 }

@@ -13,6 +13,7 @@
 body{
     padding: 0;
     margin: 0;
+    transition: transform 0.2s ease;
 }
 
 a{
@@ -27,18 +28,22 @@ a:hover{
 .navbar{
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
     background-color: #0d0202;
     width: 100%;
     height: 75px;
-
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
+
 .nav_logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
 }
+
 .nav-link {
     position: relative;
     color: rgb(255, 251, 251);
@@ -48,6 +53,7 @@ a:hover{
     transition: width 0.35s ease;
     -webkit-transition: width 0.35s ease;
 }
+
 .nav-link::after {
     content: "";
     position: absolute;
@@ -63,6 +69,7 @@ a:hover{
 .nav-link:hover::after {
     width: 100%;
 }
+
 .nav-link.active::after {
     content: "";
     position: absolute;
@@ -78,9 +85,9 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10vh
-
+    margin-right: 10vh;
 }
+
 .nav-item{
     padding: 30px;
 }
@@ -91,7 +98,79 @@ a:hover{
     color: #f7773c;
     font-weight: bolder;
 }
+
 .resume{
-    margin-right: 20px;
+    margin-left: 5rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .nav-items {
+        display: none;
+        flex-direction: column;
+        width: 390px;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #0d0202;
+        text-align: center;
+    }
+    .navbar{
+        width: 390px;
+    }
+
+    .nav-items.active {
+        display: flex;
+    }
+    .resume{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .nav-item {
+        padding: 15px;
+        border-bottom: 1px solid #333;
+    }
+
+    .navbar-link.active {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+
+    }
+
+    .nav_logo {
+        margin-left: 10px;
+    }
+
+
+    .heading {
+        margin-left: 35px;
+        font-size: 16px;
+    }
+    .mobile-menu-open .main_body {
+        transform: translateY(310px); 
+    }
+    .mobile-menu-open .contact-container {
+        transform: translateY(320px); 
+    }
+    .mobile-menu-open .education-container {
+        transform: translateY(320px); 
+    }
+    .mobile-menu-open .main-project-container {
+        transform: translateY(320px); 
+    }
+    .mobile-menu-open .skills-container-main{
+        transform: translateY(320px);
+    }
+
 }
 

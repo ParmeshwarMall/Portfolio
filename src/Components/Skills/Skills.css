@@ -1,10 +1,13 @@
 .skills-container-main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
     background-color: rgb(29, 27, 27);
     height: 654px;
+    overflow: hidden;
+    transition: transform 0.4s ease;
+    position: relative;
+    top: 75px;
 }
 .container1{
     display: flex;
@@ -85,4 +88,54 @@ h5{
 .main-head2 {
     animation: colorChange 6s infinite;
     text-align: center;
+}
+
+@media (max-width:768px)
+{
+    .skills-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(35, 32, 32);;
+        border: 1px solid rgb(9, 129, 234);
+        box-shadow: 0 2px 10px rgba(11, 125, 224,.6);
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+        height: auto;
+        width: 150px;
+    }
+    .main-skills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .skills{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(175, 167, 167);
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+        height: 60px;
+        margin: 4px;
+    
+    }
+    .fa-brands{
+        margin: 0px;
+    }
+    
+    .skills-container-main{
+        height: 857px;
+        overflow: hidden;
+    }
+    .main-head1{
+        margin-top: 10px;
+    }
+    h5{
+        margin: 0px;
+    }
+
 }
