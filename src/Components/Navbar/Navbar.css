@@ -121,7 +121,7 @@ a:hover{
         text-align: center;
     }
     .navbar{
-        width: auto;
+        max-width: auto;
     }
 
     .nav-items.active {
@@ -144,12 +144,8 @@ a:hover{
 
     .mobile-menu-icon {
         display: block;
-        margin-left: 13px;
-
-    }
-
-    .nav_logo {
-        margin-left: 10px;
+        margin-right: 30px;
+        scale: 1.3;
     }
 
 
