@@ -113,7 +113,7 @@ a:hover{
     .nav-items {
         display: none;
         flex-direction: column;
-        width: 390px;
+        width: 345px;
         position: absolute;
         top: 60px;
         left: 0;
@@ -121,7 +121,7 @@ a:hover{
         text-align: center;
     }
     .navbar{
-        width: 390px;
+        width: auto;
     }
 
     .nav-items.active {
@@ -144,6 +144,7 @@ a:hover{
 
     .mobile-menu-icon {
         display: block;
+        margin-left: 13px;
 
     }
 
@@ -153,8 +154,8 @@ a:hover{
 
 
     .heading {
-        margin-left: 35px;
         font-size: 16px;
+        margin-left: 20px;
     }
     .mobile-menu-open .main_body {
         transform: translateY(310px); 

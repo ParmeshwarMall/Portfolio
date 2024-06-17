@@ -88,9 +88,6 @@
     .main_image{
         display: none;
     }
-    .main_body{
-        height: 81.2vh;
-    }
     .social_icons{
         display: flex;
         justify-content: space-evenly;
