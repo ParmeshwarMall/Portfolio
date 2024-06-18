@@ -82,10 +82,10 @@
     
     @keyframes textAnimation {
         0%, 100% {
-            width: 3rem;
+            width: 3.2rem;
         }
         50% {
-            width: 17.5rem;
+            width: 18rem;
         }
     }
     .main_image{
