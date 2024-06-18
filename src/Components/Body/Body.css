@@ -30,23 +30,34 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-.animated-text1 {
+.animated-text {
     font-size: 2em;
-    animation: textAnimation 5s infinite;
     white-space: nowrap;
     overflow: hidden;
-    border-right: 0.15em solid rgb(27,27,27);
+    border-right: 0.15em solid rgb(27, 27, 27);
     color: rgb(171, 197, 200);
-}
-
-@keyframes textAnimation {
-    0%, 100% {
-        width: 9%;
-    }
-    50% {
-        width: 50%;
-    }
-}
+    width: 0; 
+    display: none; 
+    animation: textAnimation 5s steps(30, end) forwards, cursor 1s step-end infinite;
+  }
+  
+  .visible {
+    display: inline-block; 
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  @keyframes textAnimation {
+    from { width: 13%; }
+    to { width: 100%; }
+  }
+  
+  @keyframes cursor {
+    from, to { border-color: transparent; }
+    50% { border-color: rgb(27, 27, 27); }
+  }
 .social_icons{
     display: flex;
     justify-content: center;
@@ -75,9 +86,9 @@
     .main_content{
         width: 100%;
     }
-    .animated-text1 {
+    .animated-text {
         font-size: 1.6rem;
-        animation: textAnimation 5s infinite;
+        animation: textAnimation 3s infinite;
     }
     
     @keyframes textAnimation {
@@ -85,7 +96,7 @@
             width: 3.2rem;
         }
         50% {
-            width: 18rem;
+            width:20rem;
         }
     }
     .main_image{
