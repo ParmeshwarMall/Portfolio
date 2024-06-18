@@ -1,15 +1,25 @@
 import React from "react";
 import Button from "@mui/material/Button";
+import { useState,useEffect } from "react";
 import "./Body.css";
 
 const Body = () => {
+  const [isText1Visible, setIsText1Visible] = useState(true);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsText1Visible(prev => !prev);
+    }, 3000); // Toggle every 5 seconds
+
+    return () => clearInterval(interval); // Cleanup interval on component unmount
+  }, []);
   return (
     <div className="main_body">
       <div className="main_content">
         <h1 className="main_head">Hi, I am </h1>
         <h1 className="main_head">Parmeshwar Mall</h1>
-        <h2 className="animated-text1 text">I am Software Developer</h2>
-        {/* <h2 className="animated-text2 text">I am Web Developer</h2> */}
+        <h2 className={`animated-text ${isText1Visible ? 'visible' : 'hidden'}`}>I am Software Developer</h2>
+        <h2 className={`animated-text ${!isText1Visible ? 'visible' : 'hidden'}`}>I am Web Developer</h2>
         <h3 className="cont">
           As a dedicated B.Tech Computer Science student, I am passionate about
           using technology to solve real-world problems. My academic studies
