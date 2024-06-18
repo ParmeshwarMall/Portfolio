@@ -26,7 +26,7 @@ const Body = () => {
           analytical and problem-solving tasks.
         </h3>
         <div className="social_icons">
-          <a href="https://www.linkedin.com/feed/" target="_blank">
+          <a href="https://www.linkedin.com/in/parmeshwar-mall-17217924a/" target="_blank">
             <i class="fa-brands fa-linkedin icons fa-2x"></i>
           </a>
           <a href="">

@@ -65,6 +65,9 @@
     display: none;
 }
 @media (max-width:768px){
+    .main_body{
+        padding: 20px;
+    }
     .main_head{
         font-size: 30px;
         font-weight: bold;
@@ -73,16 +76,16 @@
         width: 100%;
     }
     .animated-text1 {
-        font-size: 1.8em;
+        font-size: 1.6rem;
         animation: textAnimation 5s infinite;
     }
     
     @keyframes textAnimation {
         0%, 100% {
-            width: 19%;
+            width: 3rem;
         }
         50% {
-            width: 95%;
+            width: 17.5rem;
         }
     }
     .main_image{
