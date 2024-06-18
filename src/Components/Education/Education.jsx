@@ -23,7 +23,7 @@ const Education = () => {
             Shri Ramswaroop Memorial University, Lucknow
           </h3>
           <h3 className="vertical-timeline-element-subtitle">
-            Bachler of Technology- B.Tech Computer Science and Engineering
+            Bachelor of Technology- B.Tech Computer Science and Engineering
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Grade: 8.7 CGPA</h4>
           <p >
