@@ -132,15 +132,13 @@ const Projects = () => {
                 I created a dynamic portfolio using React, a powerful JavaScript
                 library for building user interfaces.It features a responsive
                 design, ensuring an optimal viewing experience on various
-                devices.It also includes a contact form that allows potential
+                devices.The portfolio showcases my projects and skills with interactive components and smooth animations.It also includes a contact form that allows potential
                 employers to easily get in touch with me.
               </Typography>
             </CardContent>
             <div className="used-skills">
               <h5 className="skill">React</h5>
-              <h5 className="skill">Node JS</h5>
-              <h5 className="skill">Express JS</h5>
-              <h5 className="skill">MongoDB</h5>
+              <h5 className="skill">Material UI</h5>
               <a href="https://github.com/ParmeshwarMall/Portfolio" target="_blank">
                 <h5 className="project-link">Github Link</h5>
               </a>
