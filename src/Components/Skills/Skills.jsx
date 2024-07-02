@@ -90,6 +90,14 @@ const Skills = () => {
                         <img src="./intellijicon.png" className="fa-brands" alt="" />
                         <h5>IntelliJ IDEA</h5>
                     </div>
+                  <div className="skills">
+                        <img src="./netlify.png" className="fa-brands" alt="" />
+                        <h5>Netlify</h5>
+                    </div>
+                    <div className="skills">
+                        <img src="./render.png" className="fa-brands" alt="" style={{backgroundColor:"white"}}/>
+                        <h5>Render.com</h5>
+                    </div>
                 </div>
             </div>
         </div>
