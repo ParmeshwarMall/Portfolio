@@ -56,6 +56,12 @@ const Projects = () => {
               >
                 <h5 className="project-link">Github Link</h5>
               </a>
+              <a
+                href="https://bharat-bank.netlify.app/"
+                target="_blank"
+              >
+                <h5 className="project-link">Check Project</h5>
+              </a>
             </div>
           </Card>
         </div>
