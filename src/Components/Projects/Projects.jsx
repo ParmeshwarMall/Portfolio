@@ -51,7 +51,7 @@ const Projects = () => {
               <h5 className="skill">Bootstrap</h5>
               <h5 className="skill">Material UI</h5>
               <a
-                href="https://github.com/ParmeshwarMall/Bank-Website"
+                href="https://github.com/ParmeshwarMall/Bank-Management-System"
                 target="_blank"
               >
                 <h5 className="project-link">Github Link</h5>
