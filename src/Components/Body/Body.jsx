@@ -4,7 +4,6 @@ import { useState,useEffect } from "react";
 import "./Body.css";
 
 const Body = () => {
-
   const [isText1Visible, setIsText1Visible] = useState(true);
 
   useEffect(() => {
@@ -14,7 +13,7 @@ const Body = () => {
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, []);
-
+  
   return (
     <div className="main_body">
       <div className="main_content">
@@ -31,7 +30,7 @@ const Body = () => {
           effectively.
         </h3>
         <h3 className="cont">
-          I am skilled in programming languages like Java and slove 450+ DSA questions on Leetcode and GFG and
+           I am skilled in programming languages like Java and slove 450+ DSA questions on Leetcode and GFG and
           I have experience with web development technologies such as HTML, CSS,
           JavaScript, and frameworks like React and Node.js. I am also
           proficient in managing databases with SQL and NoSQL, and I excel in
